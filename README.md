@@ -11,3 +11,5 @@ net start wuauserv
 net start cryptSvc
 net start bits
 net start msiserver
+
+DISM.exe /Online /Cleanup-image /Restorehealth
